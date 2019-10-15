@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-15T09:19:57.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yRpDy5YK77I1LrsCqWGp" version="12.1.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-15T11:43:27.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yiL2rm3TV7XKiJRzRvvN" version="12.1.1" type="github" pages="2">
   <diagram id="nh97f3DB8T6fAiTZEevC" name="Page-1">
     <mxGraphModel dx="1034" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
@@ -57,6 +57,111 @@
         <mxCell id="JD4CrLKOVzFVt-Ml0h31-5" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-scheduler release&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-usecase-builder&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-core&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-connectivity&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="310" y="220" width="350" height="120" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hX78tv6YN2Iv30goS7V5" name="Page-2">
+    <mxGraphModel dx="1034" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
+      <root>
+        <mxCell id="htvp4EqXvjkX-wAPvBOE-0"/>
+        <mxCell id="htvp4EqXvjkX-wAPvBOE-1" parent="htvp4EqXvjkX-wAPvBOE-0"/>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-0" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-usecase-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveBuildusecaseReleaseWithSolution.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="20" y="850" width="310" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-2" target="WGcgH2TFByL3JRb19R-N-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-2" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- pc-userjourney :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;pc-datalink-test-userjourney-noauth :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;pc-datalink-test-userjourney-auth :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="20" y="900" width="310" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-5" target="WGcgH2TFByL3JRb19R-N-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="690" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-5" target="WGcgH2TFByL3JRb19R-N-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-5" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-pcr-sanity-orchestration&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveOrchestrateTest.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="310" y="600" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-6" value="&lt;span style=&quot;white-space: normal&quot;&gt;pcr-sanity-test&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveExecutePcrSanityTest.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="640" y="780" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-7" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- releaseName :&amp;nbsp;201802080213-master (selector to get base release)&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- runUseCaseReleasePipeline?&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;runPcrSanityTestPipeline?&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- runE1SanityTestPipeline?&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="310" y="480" width="350" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-8" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- releaseName :&amp;nbsp;201802080213-master&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- userJourneyBranch: master&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="20" y="780" width="310" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.589;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-10" target="WGcgH2TFByL3JRb19R-N-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-10" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-bps-we-cx-sanity-test&lt;br&gt;&lt;/span&gt;e1PowercurveExecuteE1SanityTest.groovy" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="45" y="1190" width="265" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-11" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- usecaseReleaseName :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="45" y="1140" width="265" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-12" value="&lt;span style=&quot;white-space: normal&quot;&gt;testpipeline-saas-cucumber-powercurve&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;provisionTestUseCasePowercurve.groovy" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="45" y="1330" width="275" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-13" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-monorepo-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveMonorepoRelease.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="310" y="170" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-14" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- WEB_ENGINE_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- BPS_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;CONNECTIVITY_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- etc&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="310" y="50" width="350" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-16" target="WGcgH2TFByL3JRb19R-N-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-16" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-scheduler&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-usecase-builder&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-base&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- connectivity-base&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="310" y="220" width="350" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-17" target="WGcgH2TFByL3JRb19R-N-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="622" y="1526" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-22" value="Create release" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="WGcgH2TFByL3JRb19R-N-20">
+          <mxGeometry x="-0.2976" y="2" relative="1" as="geometry">
+            <mxPoint x="28" y="2" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-17" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-monorepo-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveMonorepoRelease.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="80" y="1500" width="350" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-21" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-scheduler&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-usecase-builder&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-base&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- connectivity-base&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="630" y="1470" width="350" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-23" target="WGcgH2TFByL3JRb19R-N-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-26" value="Create release" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="WGcgH2TFByL3JRb19R-N-25">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint x="30" y="-5" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-23" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-usecase-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveBuildusecaseReleaseWithSolution.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="110" y="1760" width="310" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-24" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- pc-userjourney&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-connectivity&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="670" y="1750" width="310" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-31" value="checkout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="htvp4EqXvjkX-wAPvBOE-1" source="WGcgH2TFByL3JRb19R-N-27" target="WGcgH2TFByL3JRb19R-N-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-32" value="" style="group" vertex="1" connectable="0" parent="htvp4EqXvjkX-wAPvBOE-1">
+          <mxGeometry x="30" y="1660" width="460" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="WGcgH2TFByL3JRb19R-N-27" value="&lt;h1&gt;&lt;font face=&quot;helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 0px ; font-weight: 400&quot;&gt;https://bitbucketglobal.experian.local/scm/dasa/software-use-gsg-userjourney.git&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="WGcgH2TFByL3JRb19R-N-32">
+          <mxGeometry width="460" height="50" as="geometry"/>
+        </mxCell>
+        <UserObject label="https://bitbucketglobal.experian.local/scm/dasa/software-use-gsg-userjourney.git" link="https://bitbucketglobal.experian.local/scm/dasa/software-use-gsg-userjourney.git" id="WGcgH2TFByL3JRb19R-N-28">
+          <mxCell style="text;html=1;" vertex="1" parent="WGcgH2TFByL3JRb19R-N-32">
+            <mxGeometry x="12.23404255319149" y="10" width="425.74468085106383" height="30" as="geometry"/>
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
