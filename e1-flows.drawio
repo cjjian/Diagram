@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-29T02:07:57.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="wo6D4XFoM2_WsO_F3Nbc" version="12.3.2" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-12-02T06:47:15.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="XPIOR3E9d-XwvZSKF-Ng" version="12.3.3" type="github" pages="4">
   <diagram id="nh97f3DB8T6fAiTZEevC" name="Pipeline">
-    <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -266,7 +266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vkFdhD_T5gWaz1Pzgijp" name="Datalink in usecases">
-    <mxGraphModel dx="11122" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
+    <mxGraphModel dx="10021" dy="553" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
         <mxCell id="RIwQmrbAxyweYw2bukg8-0"/>
         <mxCell id="RIwQmrbAxyweYw2bukg8-1" parent="RIwQmrbAxyweYw2bukg8-0"/>
@@ -371,45 +371,45 @@
         <mxCell id="5XhL53XYKODuGHk2_QF4-9" value="pc-monorepo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="123" y="790" width="210" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--26" value="new action" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--0" target="aLS7nWedbSmsDSB-uQE--25">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--26" value="new action" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--0" target="aLS7nWedbSmsDSB-uQE--25" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--0" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-usecase-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveBuildusecaseReleaseWithSolution.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--0" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-usecase-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveBuildusecaseReleaseWithSolution.groovy&lt;/span&gt;" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="93" y="1868" width="310" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--25" value="&lt;ul&gt;&lt;li&gt;download sanity-usecase.zip from artifact&lt;/li&gt;&lt;li&gt;deploy sanity-usecase, datalinks&lt;/li&gt;&lt;li&gt;create releases:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;pc-monorepo&lt;/li&gt;&lt;li&gt;pc-datalink-test-sanity-noauth&lt;/li&gt;&lt;li&gt;pc-datalink-test-sanity-auth&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="fillColor=#d5e8d4;strokeColor=#82b366;align=left;html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--25" value="&lt;ul&gt;&lt;li&gt;download sanity-usecase.zip from artifact&lt;/li&gt;&lt;li&gt;deploy sanity-usecase, datalinks&lt;/li&gt;&lt;li&gt;create releases:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;pc-monorepo&lt;/li&gt;&lt;li&gt;pc-datalink-test-sanity-noauth&lt;/li&gt;&lt;li&gt;pc-datalink-test-sanity-auth&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="fillColor=#d5e8d4;strokeColor=#82b366;align=left;html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="498" y="1905" width="310" height="102" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--2" target="aLS7nWedbSmsDSB-uQE--13">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--2" target="aLS7nWedbSmsDSB-uQE--13" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--2" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- pc-userjourney :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;pc-datalink-test-userjourney-noauth :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;pc-datalink-test-userjourney-auth :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--2" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- pc-userjourney :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;pc-datalink-test-userjourney-noauth :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;pc-datalink-test-userjourney-auth :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="93" y="1918" width="310" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--5" target="aLS7nWedbSmsDSB-uQE--8">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--5" target="aLS7nWedbSmsDSB-uQE--8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="193" y="1708" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--5" target="aLS7nWedbSmsDSB-uQE--6">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--5" target="aLS7nWedbSmsDSB-uQE--6" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--5" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-pcr-sanity-orchestration&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveOrchestrateTest.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--5" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-pcr-sanity-orchestration&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveOrchestrateTest.groovy&lt;/span&gt;" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="383" y="1618" width="350" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--6" value="&lt;span style=&quot;white-space: normal&quot;&gt;pcr-sanity-test&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveExecutePcrSanityTest.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--6" value="&lt;span style=&quot;white-space: normal&quot;&gt;pcr-sanity-test&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveExecutePcrSanityTest.groovy&lt;/span&gt;" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="713" y="1798" width="350" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--7" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- releaseName :&amp;nbsp;201802080213-master (selector to get base release)&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- runUseCaseReleasePipeline?&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;runPcrSanityTestPipeline?&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- runE1SanityTestPipeline?&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--7" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- releaseName :&amp;nbsp;201802080213-master (selector to get base release)&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- runUseCaseReleasePipeline?&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;runPcrSanityTestPipeline?&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- runE1SanityTestPipeline?&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="383" y="1498" width="350" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--8" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- releaseName :&amp;nbsp;201802080213-master&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- userJourneyBranch: master&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--8" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- releaseName :&amp;nbsp;201802080213-master&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- userJourneyBranch: master&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="93" y="1798" width="310" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--9" value="old" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.589;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--11" target="aLS7nWedbSmsDSB-uQE--14">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--9" value="old" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.589;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--11" target="aLS7nWedbSmsDSB-uQE--14" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--10" value="new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--11" target="aLS7nWedbSmsDSB-uQE--12">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--10" value="new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--11" target="aLS7nWedbSmsDSB-uQE--12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="251" y="2307"/>
@@ -417,55 +417,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--11" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-bps-we-cx-sanity-test&lt;br&gt;&lt;/span&gt;e1PowercurveExecuteE1SanityTest.groovy" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--11" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-bps-we-cx-sanity-test&lt;br&gt;&lt;/span&gt;e1PowercurveExecuteE1SanityTest.groovy" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="118" y="2208" width="265" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--12" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-size: 15px ; text-align: left ; white-space: normal&quot;&gt;testpipeline-saas-cucumber-monorepo&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-size: 15px ; text-align: left ; white-space: normal&quot;&gt;testpipelineSaasCucumberMonorepo&lt;/span&gt;.groovy" style="html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--12" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-size: 15px ; text-align: left ; white-space: normal&quot;&gt;testpipeline-saas-cucumber-monorepo&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-size: 15px ; text-align: left ; white-space: normal&quot;&gt;testpipelineSaasCucumberMonorepo&lt;/span&gt;.groovy" style="html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="268" y="2354" width="410" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--13" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- usecaseReleaseName :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--13" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- usecaseReleaseName :&amp;nbsp;eo-ucr-17-da-saas&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="118" y="2158" width="265" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--14" value="&lt;span style=&quot;white-space: normal&quot;&gt;testpipeline-saas-cucumber-powercurve&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;provisionTestUseCasePowercurve.groovy" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--14" value="&lt;span style=&quot;white-space: normal&quot;&gt;testpipeline-saas-cucumber-powercurve&lt;/span&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;provisionTestUseCasePowercurve.groovy" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="-74.5" y="2354" width="275" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--24" value="new action" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--15" target="aLS7nWedbSmsDSB-uQE--23">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--24" value="new action" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--15" target="aLS7nWedbSmsDSB-uQE--23" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--15" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-monorepo-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveCreateMonorepoRelease.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--15" value="&lt;span style=&quot;white-space: normal&quot;&gt;e1-monorepo-build-release&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;e1PowercurveCreateMonorepoRelease.groovy&lt;/span&gt;" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="383" y="1188" width="350" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--23" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;white-space: normal&quot;&gt;zip platform/usecase&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: normal&quot;&gt;publish sanity-usecase.zip to artifact&lt;/span&gt;&lt;/li&gt;&lt;li&gt;tag powercurve-base with usecase-tag-url&lt;/li&gt;&lt;/ul&gt;" style="html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--23" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;white-space: normal&quot;&gt;zip platform/usecase&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: normal&quot;&gt;publish sanity-usecase.zip to artifact&lt;/span&gt;&lt;/li&gt;&lt;li&gt;tag powercurve-base with usecase-tag-url&lt;/li&gt;&lt;/ul&gt;" style="html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="813" y="1188" width="350" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--16" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- WEB_ENGINE_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- BPS_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;CONNECTIVITY_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- etc&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--16" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;input&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- WEB_ENGINE_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- BPS_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;CONNECTIVITY_VERSION&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- etc&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="383" y="1068" width="350" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--18" target="aLS7nWedbSmsDSB-uQE--7">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--18" target="aLS7nWedbSmsDSB-uQE--7" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--18" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- docker images&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-scheduler release&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-usecase-builder&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-core&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-connectivity&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--18" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;output&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- docker images&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-scheduler release&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-usecase-builder&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;-&amp;nbsp;powercurve-core&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;- powercurve-connectivity&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;spacingTop=-15;overflow=hidden;rounded=0;align=left;labelBorderColor=none;fontSize=11;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="383" y="1238" width="350" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--20" target="aLS7nWedbSmsDSB-uQE--16">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="RIwQmrbAxyweYw2bukg8-1" source="aLS7nWedbSmsDSB-uQE--20" target="aLS7nWedbSmsDSB-uQE--16" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--20" value="&lt;span style=&quot;white-space: normal&quot;&gt;software-powercurve&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;buildDeployMonorepoPipelineSimple.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--20" value="&lt;span style=&quot;white-space: normal&quot;&gt;software-powercurve&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;buildDeployMonorepoPipelineSimple.groovy&lt;/span&gt;" style="html=1;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="383" y="940" width="350" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--21" value="Tag with develop-success" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;container=1;recursiveResize=0;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--21" value="Tag with develop-success" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;container=1;recursiveResize=0;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="RIwQmrbAxyweYw2bukg8-1" vertex="1">
           <mxGeometry x="369" y="2078" width="224" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="aLS7nWedbSmsDSB-uQE--22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" parent="RIwQmrbAxyweYw2bukg8-1" target="aLS7nWedbSmsDSB-uQE--21">
+        <mxCell id="aLS7nWedbSmsDSB-uQE--22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" parent="RIwQmrbAxyweYw2bukg8-1" target="aLS7nWedbSmsDSB-uQE--21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="373" y="2158" as="sourcePoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eflVsc9I-p9zhXJj2ZzE-0" value="&lt;b&gt;Problems&lt;/b&gt;&lt;br&gt;--------------&lt;br&gt;1. Datalink is using old images for all time.&lt;br&gt;2. Userjouney is not multiple branches&lt;br&gt;3. We dont need multi layers (but we spin it all) usecase, client stack, dev stacks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+          <mxGeometry x="11" y="932.5" width="434" height="102" as="geometry"/>
+        </mxCell>
+        <mxCell id="eflVsc9I-p9zhXJj2ZzE-1" value="1. datalink component test to be improved with ipth&lt;br&gt;2. teams to put in tests for components&lt;br&gt;3. monorepo/usecase dont put platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+          <mxGeometry x="9" y="1157" width="339" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="eflVsc9I-p9zhXJj2ZzE-2" value="Issue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+          <mxGeometry x="3" y="1137" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="fh3nUpXVq2xc3qzCCVAF" name="Page-4">
-    <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
         <mxCell id="vib4g3NXeTXaFEQ0kSfP-0"/>
         <mxCell id="vib4g3NXeTXaFEQ0kSfP-1" parent="vib4g3NXeTXaFEQ0kSfP-0"/>
