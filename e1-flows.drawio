@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T07:36:23.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="BbD7CL1HZeIiBBh77ZcR" version="12.3.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-12-02T07:39:50.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="lvwJJw1a_UQ1uf75cAcC" version="12.3.3" type="github" pages="4">
   <diagram id="nh97f3DB8T6fAiTZEevC" name="Pipeline">
     <mxGraphModel dx="1123" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vkFdhD_T5gWaz1Pzgijp" name="Datalink in usecases">
-    <mxGraphModel dx="10214" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
+    <mxGraphModel dx="10276" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
         <mxCell id="RIwQmrbAxyweYw2bukg8-0"/>
         <mxCell id="RIwQmrbAxyweYw2bukg8-1" parent="RIwQmrbAxyweYw2bukg8-0"/>
@@ -478,8 +478,8 @@
         <mxCell id="eflVsc9I-p9zhXJj2ZzE-0" value="&lt;b&gt;Problems&lt;/b&gt;&lt;br&gt;--------------&lt;br&gt;1. Datalink is using old images for all time.&lt;br&gt;2. Userjouney is not multiple branches&lt;br&gt;3. We dont need multi layers (but we spin it all) usecase, client stack, dev stacks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
           <mxGeometry x="11" y="932.5" width="434" height="102" as="geometry"/>
         </mxCell>
-        <mxCell id="eflVsc9I-p9zhXJj2ZzE-1" value="1. datalink component test to be improved with ipth&lt;br&gt;2. teams to put in tests for components&lt;br&gt;3. put usecase in monorepo/usecase don&#39;t put platform&lt;br&gt;4.&amp;nbsp;sanityusecase.xml checkin as zip" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
-          <mxGeometry x="9" y="1157" width="339" height="65" as="geometry"/>
+        <mxCell id="eflVsc9I-p9zhXJj2ZzE-1" value="1. datalink component test to be improved with ipth&lt;br&gt;2. teams to put in tests for components&lt;br&gt;3. put usecase in monorepo/usecase don&#39;t put platform&lt;br&gt;4.&amp;nbsp;sanityusecase.xml checkin as zip&lt;br&gt;5. need to release and tag pc-userjourney" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
+          <mxGeometry x="9" y="1157" width="339" height="75" as="geometry"/>
         </mxCell>
         <mxCell id="eflVsc9I-p9zhXJj2ZzE-2" value="Issue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
           <mxGeometry x="3" y="1137" width="40" height="20" as="geometry"/>
