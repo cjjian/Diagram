@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T07:43:39.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="0LOnUYiUdoOtgAOtJsyQ" version="12.3.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-12-03T10:02:10.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="65Tm2lTW-Np3GOjoVc2f" version="12.3.3" type="github" pages="4">
   <diagram id="nh97f3DB8T6fAiTZEevC" name="Pipeline">
     <mxGraphModel dx="1123" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vkFdhD_T5gWaz1Pzgijp" name="Datalink in usecases">
-    <mxGraphModel dx="10276" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
+    <mxGraphModel dx="10764" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
         <mxCell id="RIwQmrbAxyweYw2bukg8-0"/>
         <mxCell id="RIwQmrbAxyweYw2bukg8-1" parent="RIwQmrbAxyweYw2bukg8-0"/>
@@ -488,7 +488,7 @@
           <mxGeometry x="1026" y="1274" width="285" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="eflVsc9I-p9zhXJj2ZzE-7" value="&lt;div&gt;- Bitbucket has api that allows checkout single 1 by commit hash&lt;/div&gt;&lt;div&gt;- Need find out whether there is another api to list files in directory&lt;/div&gt;&lt;div&gt;- Else need a &quot;index&quot; file that store all files in the folder, so pipeline can read that file and download them in a loop&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
-          <mxGeometry x="498" y="2018" width="520" height="60" as="geometry"/>
+          <mxGeometry x="498" y="2018" width="679" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="eflVsc9I-p9zhXJj2ZzE-9" value="&lt;span style=&quot;text-align: center&quot;&gt;rename script to e1-bps-we-cx-component-test&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RIwQmrbAxyweYw2bukg8-1">
           <mxGeometry x="733" y="2360" width="258" height="39" as="geometry"/>
