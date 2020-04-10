@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-10T06:28:41.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="742kBchTHe_qPohtvS_t" version="12.9.10" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2020-04-10T07:13:33.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="SZ2Xg_kpDm7eHcJfEOtr" version="12.9.10" type="github" pages="14">
   <diagram id="nh97f3DB8T6fAiTZEevC" name="Pipeline">
     <mxGraphModel dx="1340" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9091" pageHeight="9013" math="0" shadow="0">
       <root>
@@ -1420,7 +1420,7 @@
     
   </diagram>
   <diagram id="q334m7U7vBUiGZCzSRZg" name="overall-diagram-with-uj">
-    <mxGraphModel dx="2190" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2642" dy="753" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3kzB9o_Cr0Q-A1qJefvd-0" />
         <mxCell id="3kzB9o_Cr0Q-A1qJefvd-1" parent="3kzB9o_Cr0Q-A1qJefvd-0" />
@@ -4069,7 +4069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Feyk3Jvjpb_hkdJNUx77" name="Toggle uj">
-    <mxGraphModel dx="1914" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
+    <mxGraphModel dx="1792" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
         <mxCell id="oJUrquWJ3l5qKUKm7lFI-0" />
         <mxCell id="oJUrquWJ3l5qKUKm7lFI-1" parent="oJUrquWJ3l5qKUKm7lFI-0" />
@@ -4200,13 +4200,13 @@
         <mxCell id="ufAfhjF07Fe-5rIkCSyj-8" value="&lt;span style=&quot;white-space: normal&quot;&gt;&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;ul style=&quot;font-size: 13px&quot;&gt;&lt;li&gt;pc-datalink-test-userjourney-noauth&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Tag&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;[branch]-success=true&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
           <mxGeometry x="2500" y="1200" width="360" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ufAfhjF07Fe-5rIkCSyj-10" value="&lt;span style=&quot;font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left&quot;&gt;e1-userjourney-orchestration&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px ; text-align: left&quot;&gt;jenkins/userjourneyBuildEventProcessor.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
+        <mxCell id="ufAfhjF07Fe-5rIkCSyj-10" value="utility-powercurve-build-userjourney-event-processor&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px ; text-align: left&quot;&gt;jenkins/userjourneyBuildEventProcessor.groovy&lt;/span&gt;" style="html=1;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
           <mxGeometry x="1590" y="1010" width="429.99999999999994" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ufAfhjF07Fe-5rIkCSyj-11" value="Parameters&lt;br&gt;&lt;ol&gt;&lt;li&gt;POWERCURVE_RELEASE_NAME&lt;/li&gt;&lt;li&gt;USERJOURNEY_BRANCH&lt;/li&gt;&lt;li&gt;DATALINK_SELECTOR&lt;/li&gt;&lt;li&gt;DATALINK_RETAG_SELECTOR&lt;/li&gt;&lt;li&gt;RUN_SYSTEM_TEST&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
           <mxGeometry x="1590" y="1060" width="430" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ufAfhjF07Fe-5rIkCSyj-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;WHAT IT DOES&lt;/b&gt;&lt;/div&gt;1. get powercurve branch and set to USERJOURNEY_BRANCH and DATALINK_SELETOR&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;powercurve-[main] --&amp;gt; software-use-gsg-userjourney-[main]&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;powercurve-[xxx-feature] --&amp;gt; software-use-gsg-userjourney-feature&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;2 Trigger parallel job to uj and datalinks.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;4. Trigger sequence call to test-saas-cucumber-powercurve if needed&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. Tag releases with ci-success=true (anything)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#330000;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
+        <mxCell id="ufAfhjF07Fe-5rIkCSyj-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;WHAT IT DOES&lt;/b&gt;&lt;/div&gt;1. get powercurve branch and set to USERJOURNEY_BRANCH and DATALINK_SELETOR&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;powercurve-[main] --&amp;gt; software-use-gsg-userjourney-[main]&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;powercurve-[xxx-feature] --&amp;gt; software-use-gsg-userjourney-feature/morepo&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;2 Trigger parallel job to uj and datalinks.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;4. Trigger sequence call to test-saas-cucumber-powercurve if needed&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. Tag releases with ci-success=true (anything)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#330000;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
           <mxGeometry x="1590" y="1180" width="610" height="180" as="geometry" />
         </mxCell>
         <mxCell id="lxOYVuwD0oQlPbF_RnxY-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;testpipeline-saas-cucumber-powercurve&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;provisionTestUsecasePowercurve&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;.groovy&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="oJUrquWJ3l5qKUKm7lFI-1">
