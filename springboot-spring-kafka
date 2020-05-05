@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-05-05T02:44:27.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="YARIoCkoB8Qo9G96IOj5" version="13.0.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-05-05T02:44:57.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="Y2tR4GaFOgHnjUd6UrNx" version="13.0.1" type="github" pages="2">
   <diagram id="1-i9eTzUNt5UqBFlETSG" name="spring-kafka lifecycle">
-    <mxGraphModel dx="10257" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
+    <mxGraphModel dx="10543" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,7 +419,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a2zPpNPlET6yt5Q6W9vj-54" value="Current AMS setting retry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontFamily=Verdana;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1297" y="1770" width="226" height="22" as="geometry" />
+          <mxGeometry x="-1316" y="1843" width="226" height="22" as="geometry" />
         </mxCell>
         <mxCell id="a2zPpNPlET6yt5Q6W9vj-55" value="Overall springboot bootstart" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontFamily=Verdana;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1216" y="44" width="249" height="22" as="geometry" />
