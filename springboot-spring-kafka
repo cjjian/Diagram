@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-05-05T02:49:35.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="NbqCKdHjSdaOfuFtkG-I" version="13.0.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-05-05T02:52:32.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="kF9NekKxNUd7n9z6hpy1" version="13.0.1" type="github" pages="2">
   <diagram id="1-i9eTzUNt5UqBFlETSG" name="spring-kafka lifecycle">
     <mxGraphModel dx="11374" dy="1234" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="40" y="280" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kd5coZLnbLCloS6EZ5EG-3" value="springboot-autoconfigure" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="765" y="1010" width="715" height="760" as="geometry" />
+          <mxGeometry x="599" y="1025" width="715" height="760" as="geometry" />
         </mxCell>
         <mxCell id="Kd5coZLnbLCloS6EZ5EG-5" value="&lt;pre style=&quot;font-family: &amp;#34;courier new&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;text-align: left ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;courier new&amp;#34; ; font-size: 12pt&quot;&gt;&lt;span&gt;@EnableAutoConfiguration&lt;br&gt;&lt;/span&gt;&lt;span&gt;@ComponentScan&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 12pt&quot;&gt;&lt;span style=&quot;font-size: 12pt ; text-align: center&quot;&gt;SpringBootApplication.java&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Kd5coZLnbLCloS6EZ5EG-3">
           <mxGeometry x="30" y="40" width="320" height="100" as="geometry" />
@@ -113,8 +113,9 @@
         <mxCell id="Kd5coZLnbLCloS6EZ5EG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;shape=link;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="Kd5coZLnbLCloS6EZ5EG-1" target="Kd5coZLnbLCloS6EZ5EG-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="440" />
-              <mxPoint x="700" y="1100" />
+              <mxPoint x="624" y="440" />
+              <mxPoint x="624" y="1100" />
+              <mxPoint x="629" y="1100" />
             </Array>
           </mxGeometry>
         </mxCell>
