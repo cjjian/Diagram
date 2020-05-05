@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-05-05T02:09:20.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="1bxa7ueh_5kIUzPy6hWF" version="13.0.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-05-05T02:10:37.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="pSlwXlZeglOSwf3RomUU" version="13.0.1" type="github" pages="2">
   <diagram id="1-i9eTzUNt5UqBFlETSG" name="spring-kafka lifecycle">
     <mxGraphModel dx="11095" dy="1337" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
@@ -413,8 +413,10 @@
         <mxCell id="a2zPpNPlET6yt5Q6W9vj-59" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Verdana;fontSize=18;shape=link;" edge="1" parent="1" source="a2zPpNPlET6yt5Q6W9vj-7" target="a2zPpNPlET6yt5Q6W9vj-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2zPpNPlET6yt5Q6W9vj-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Verdana;fontSize=18;" edge="1" parent="1" source="a2zPpNPlET6yt5Q6W9vj-8" target="a2zPpNPlET6yt5Q6W9vj-50">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="a2zPpNPlET6yt5Q6W9vj-60" value="create and set property" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Verdana;fontSize=18;" edge="1" parent="1" source="a2zPpNPlET6yt5Q6W9vj-8" target="a2zPpNPlET6yt5Q6W9vj-50">
+          <mxGeometry x="-0.7644" y="-7" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a2zPpNPlET6yt5Q6W9vj-61" value="springboot-autoconfigure" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="147" y="2681" width="693" height="512" as="geometry" />
@@ -450,12 +452,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2zPpNPlET6yt5Q6W9vj-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Verdana;fontSize=18;" edge="1" parent="1" source="a2zPpNPlET6yt5Q6W9vj-63" target="a2zPpNPlET6yt5Q6W9vj-50">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="a2zPpNPlET6yt5Q6W9vj-70" value="create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Verdana;fontSize=18;" edge="1" parent="1" source="a2zPpNPlET6yt5Q6W9vj-63" target="a2zPpNPlET6yt5Q6W9vj-50">
+          <mxGeometry x="-0.3457" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="392" y="2986" />
               <mxPoint x="-809" y="2986" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
