@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-05-05T02:52:32.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="kF9NekKxNUd7n9z6hpy1" version="13.0.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-05-05T03:24:09.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="PBSH4m4mDdFTbRk-6a0D" version="13.0.1" type="github" pages="2">
   <diagram id="1-i9eTzUNt5UqBFlETSG" name="spring-kafka lifecycle">
-    <mxGraphModel dx="11374" dy="1234" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
+    <mxGraphModel dx="11229" dy="1003" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -558,7 +558,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a2zPpNPlET6yt5Q6W9vj-108" value="Add ErrorHandler&lt;br&gt;to handle aything else&lt;br&gt;from&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; font-size: 12pt&quot;&gt;ConcurrentKafkaListenerContainerFactory&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Verdana;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-424" y="4295" width="420" height="53" as="geometry" />
+          <mxGeometry x="-456" y="4331" width="420" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
