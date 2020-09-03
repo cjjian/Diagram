@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-09-03T03:45:13.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="8Idz-GEBsELfpyHAjyW7" version="13.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-09-03T03:47:37.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Ep0SLHA7VCXOc4T7aCgx" version="13.6.2" type="github">
   <diagram id="Jvn4Tx_LyfPUEHeZEhVa" name="Page-1">
     <mxGraphModel dx="1106" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
@@ -13,13 +13,16 @@
         <mxCell id="xz6AxM3HopdPyTxjWoAX-2" value="Develop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="500" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xz6AxM3HopdPyTxjWoAX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-7" target="xz6AxM3HopdPyTxjWoAX-33">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="xz6AxM3HopdPyTxjWoAX-6" value="merge to develop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-7" target="xz6AxM3HopdPyTxjWoAX-33">
+          <mxGeometry x="0.7333" y="10" relative="1" as="geometry">
             <mxPoint x="971" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xz6AxM3HopdPyTxjWoAX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=9;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-7" target="xz6AxM3HopdPyTxjWoAX-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xz6AxM3HopdPyTxjWoAX-42" value="merge to master" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;fontStyle=0" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-7" target="xz6AxM3HopdPyTxjWoAX-39">
+          <mxGeometry x="0.25" y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xz6AxM3HopdPyTxjWoAX-7" value="release&lt;br&gt;/1.0.0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="560" width="60" height="40" as="geometry" />
@@ -84,7 +87,7 @@
         <mxCell id="xz6AxM3HopdPyTxjWoAX-29" value="16863d3-2-SNAPSHOT" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="330" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xz6AxM3HopdPyTxjWoAX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#000000;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-54" target="xz6AxM3HopdPyTxjWoAX-7">
+        <mxCell id="xz6AxM3HopdPyTxjWoAX-38" value="branch out" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#000000;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-54" target="xz6AxM3HopdPyTxjWoAX-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xz6AxM3HopdPyTxjWoAX-32" value="" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
