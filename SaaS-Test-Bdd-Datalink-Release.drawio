@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-09-03T03:57:23.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="44yGJaPz1n7EF25PbOLD" version="13.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-09-03T04:17:37.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="GvkUhVbt_7cSDYiahlQs" version="13.6.2" type="github">
   <diagram id="Jvn4Tx_LyfPUEHeZEhVa" name="Page-1">
     <mxGraphModel dx="1104" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
@@ -212,8 +212,8 @@
         <mxCell id="xz6AxM3HopdPyTxjWoAX-77" value="subscribers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="650" y="1270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xz6AxM3HopdPyTxjWoAX-80" value="Slack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1420" width="40" height="20" as="geometry" />
+        <mxCell id="xz6AxM3HopdPyTxjWoAX-80" value="Slack&lt;br&gt;#Datalink-develop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1420" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
