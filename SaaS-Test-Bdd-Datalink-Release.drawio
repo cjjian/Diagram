@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-09-03T06:20:27.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="4kCYReRV7809_r_8UZs8" version="13.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-09-03T06:21:02.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="IBDripw8fmmo4VRYrj6F" version="13.6.2" type="github">
   <diagram id="Jvn4Tx_LyfPUEHeZEhVa" name="Page-1">
     <mxGraphModel dx="1357" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9000" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
         <mxCell id="xz6AxM3HopdPyTxjWoAX-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;fontSize=11;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-60" target="xz6AxM3HopdPyTxjWoAX-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xz6AxM3HopdPyTxjWoAX-68" value="publish to artifactory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="xz6AxM3HopdPyTxjWoAX-66">
+        <mxCell id="xz6AxM3HopdPyTxjWoAX-68" value="publish jar to artifactory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="xz6AxM3HopdPyTxjWoAX-66">
           <mxGeometry x="-0.0878" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -119,12 +119,12 @@
           <mxGeometry x="171" y="757" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xz6AxM3HopdPyTxjWoAX-64" value="&lt;span style=&quot;font-size: 12px&quot;&gt;16863d3-2-SNAPSHOT&lt;/span&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="315" y="787" width="155" height="20" as="geometry" />
+          <mxGeometry x="310" y="792" width="155" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xz6AxM3HopdPyTxjWoAX-67" value="datalink-snapshot artifactory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="570" y="757" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xz6AxM3HopdPyTxjWoAX-76" value="publish to artifactory" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;fontSize=11;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-71" target="xz6AxM3HopdPyTxjWoAX-75">
+        <mxCell id="xz6AxM3HopdPyTxjWoAX-76" value="publish jar to artifactory" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;fontSize=11;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-71" target="xz6AxM3HopdPyTxjWoAX-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xz6AxM3HopdPyTxjWoAX-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#000000;fontSize=11;" edge="1" parent="1" source="xz6AxM3HopdPyTxjWoAX-71" target="xz6AxM3HopdPyTxjWoAX-77">
