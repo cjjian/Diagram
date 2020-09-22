@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T07:48:40.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Y3bhj8Nwq4JepKGW8mgo" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-22T07:53:42.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="cfoSfs9L29zkJLNoeMfS" version="13.7.3" type="github">
   <diagram id="ANJNO4AaF4cMp9zb5v2P" name="Page-1">
     <mxGraphModel dx="1346" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-3" value="DefaultClientMangementService" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="320" y="77" width="230" height="80" as="geometry" />
+          <mxGeometry x="300" y="77" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-4" value="getClientId(clientId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Gl9-vPryliiuIaGSd-P7-3">
           <mxGeometry x="30" y="30" width="120" height="20" as="geometry" />
@@ -52,7 +52,7 @@
             <mxRectangle x="770" y="240" width="300" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gl9-vPryliiuIaGSd-P7-21" value="getClientId(id)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="Gl9-vPryliiuIaGSd-P7-9" target="Gl9-vPryliiuIaGSd-P7-3">
+        <mxCell id="Gl9-vPryliiuIaGSd-P7-21" value="getClientId(clientId)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="Gl9-vPryliiuIaGSd-P7-9" target="Gl9-vPryliiuIaGSd-P7-3">
           <mxGeometry x="0.558" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="60" height="80" as="geometry" />
+          <mxGeometry x="70" y="77" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-12" value="Client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="680" y="180" width="70" height="26" as="geometry">
@@ -83,6 +83,9 @@
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-30" value="update data &lt;br&gt;on schema" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1200" y="103" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl9-vPryliiuIaGSd-P7-32" value="(Database is case insensitive) Set Collaction = xxx_CI_xx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
