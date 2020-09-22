@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T09:09:36.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="sqFesNGWmY1_YOeYfVhb" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-22T09:09:45.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="6sVShPF5Tcj5t4zbdD9i" version="13.7.3" type="github">
   <diagram id="ANJNO4AaF4cMp9zb5v2P" name="Page-1">
     <mxGraphModel dx="1586" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
           <mxGeometry x="1290" y="103" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-32" value="(Database is case insensitive) Set Collaction = xxx_CI_xx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="350" height="20" as="geometry" />
+          <mxGeometry x="40" y="20" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-12" value="Client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="180" width="160" height="90" as="geometry">
