@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T04:14:57.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="kOesgMoA9ik2AG5dx3Wm" version="13.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T11:09:13.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="zlWlCHS7Qy5HryUPYKY5" version="13.7.8" type="github">
   <diagram id="ANJNO4AaF4cMp9zb5v2P" name="Page-1">
-    <mxGraphModel dx="1339" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1339" dy="745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rq-n25AjiwIJYpTALoxF-12" value="Usecase Namespace" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1450" width="210" height="105" as="geometry" />
+        </mxCell>
         <mxCell id="Gl9-vPryliiuIaGSd-P7-17" value="select * from EDA_CLIENT&lt;br&gt;Where id=:clientId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Gl9-vPryliiuIaGSd-P7-3" target="Gl9-vPryliiuIaGSd-P7-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -177,6 +180,54 @@
         </mxCell>
         <mxCell id="DhbyaUFXzL6QqJ-XPt96-31" value="V1__min-min-platfrom-data.sql&lt;br&gt;(store at usecase pipeline)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="110" y="640" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rq-n25AjiwIJYpTALoxF-1" target="rq-n25AjiwIJYpTALoxF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-10" value="Step1. create db, run master-sql.sql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rq-n25AjiwIJYpTALoxF-9">
+          <mxGeometry x="-0.1154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-14" value="Step 2. create usecase environment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rq-n25AjiwIJYpTALoxF-1" target="rq-n25AjiwIJYpTALoxF-12">
+          <mxGeometry x="0.373" y="70" relative="1" as="geometry">
+            <mxPoint x="657" y="1481" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="1510" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-1" value="Provisioning-service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1310" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rq-n25AjiwIJYpTALoxF-4" target="rq-n25AjiwIJYpTALoxF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-6" value="create usecase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rq-n25AjiwIJYpTALoxF-5">
+          <mxGeometry x="-0.1667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-8" value="DATABASE_SCHEMA_BPS_SCHEMA_SYSTEM_URL = http://actifactory/master-sql.sql" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1350" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rq-n25AjiwIJYpTALoxF-11" target="rq-n25AjiwIJYpTALoxF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-16" value="Step 3. run platform-sql.sql&lt;br&gt;on initial stage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rq-n25AjiwIJYpTALoxF-15">
+          <mxGeometry x="-0.0909" y="46" relative="1" as="geometry">
+            <mxPoint x="48" y="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-11" value="bps" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="745" y="1480" width="135" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
