@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T15:49:53.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="07TLV09YWKLybfJN-aLC" version="13.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T15:53:27.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="-b7VHTTq0rE-34C8WG7j" version="13.7.8" type="github" pages="2">
   <diagram id="O5oqriAKqBpvd__LWGR2" name="usecase-build">
-    <mxGraphModel dx="1339" dy="-298" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1339" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,17 @@
         <mxCell id="qG5oZKhEG7zA3qGjVQWN-28" value="&lt;div&gt;BPS_DOC_VOLUME_STORAGE_SIZE: 500Mi&lt;/div&gt;&lt;div&gt;USECASE: pc-uk-mewtwo&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;RELEASENAME: 202010080545-feature&lt;/font&gt;&lt;/div&gt;&lt;div&gt;BPS_PROMETHEUS_ENABLED: false&lt;/div&gt;&lt;div&gt;DATA_INJECT_SQL_FILE: http://local/2.1__pc-test-sample_MSSQL.sql&lt;/div&gt;&lt;div&gt;BPS_LIMIT_CPU: 3&lt;/div&gt;&lt;div&gt;SCHEMA_BPS_SCHEMA_SYSTEM_URL: http://local/SQLSVR-Global_Tenant-1.0.0-master-without-ega-branch-filtering.sql&lt;/div&gt;&lt;div&gt;BPS_DB_JDBC_ATTRIBUTES: &quot;&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="qG5oZKhEG7zA3qGjVQWN-27">
           <mxGeometry x="7" y="27" width="671" height="116" as="geometry" />
         </mxCell>
+        <mxCell id="49MwqGxrEaM8BJWbzXwS-1" value="&lt;b&gt;Juno, usecase pipeline is used to do full&amp;nbsp;orchestra on&lt;/b&gt;&lt;br&gt;-create client&lt;br&gt;-create client environment&lt;br&gt;-create usecase release&lt;br&gt;&lt;div&gt;&lt;span&gt;-create usecase environment&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="1078" width="379" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-T5_wcRGJeTI9wuBq7Qv" name="Page-2">
+    <mxGraphModel dx="1339" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="uq-IiAho0hEKO2kXrdbQ-0" />
+        <mxCell id="uq-IiAho0hEKO2kXrdbQ-1" parent="uq-IiAho0hEKO2kXrdbQ-0" />
       </root>
     </mxGraphModel>
   </diagram>
