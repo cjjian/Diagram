@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T04:08:19.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_Hj1MwIqJhGcIL8bsz31" version="13.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T04:08:56.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XN97-GnRInaBFoeUHY64" version="13.7.8" type="github">
   <diagram id="ANJNO4AaF4cMp9zb5v2P" name="Page-1">
     <mxGraphModel dx="1339" dy="745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -231,6 +231,9 @@
         </mxCell>
         <mxCell id="rq-n25AjiwIJYpTALoxF-19" value="DATA_INJECT_SQL_FILE=http://artifact/roles.sql.sql" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="247" y="1406" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rq-n25AjiwIJYpTALoxF-20" value="BPS DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="940" y="1273" width="74" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
