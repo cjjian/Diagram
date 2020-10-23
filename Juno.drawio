@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T17:06:17.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="-A3BdQ76wP_neg4BSM8B" version="13.7.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-23T17:07:48.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ZmoTpDt4t3htxcfxYGhL" version="13.7.8" type="github" pages="2">
   <diagram id="O5oqriAKqBpvd__LWGR2" name="usecase-build">
     <mxGraphModel dx="1339" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -173,6 +173,9 @@
         </mxCell>
         <mxCell id="P5qISW23LmS3Dwndeurh-24" value="And we login using the internal url, which share the same network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
           <mxGeometry x="187" y="75" width="509" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P5qISW23LmS3Dwndeurh-25" value="To be able to by pass it, we set header value&amp;nbsp;&lt;strong style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;X-Forwarded-For&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;to one of whitelist&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;see https://pages.experian.com/display/GPD/X-Forwarded-For+Header+Injection&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="102" y="118" width="620" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
