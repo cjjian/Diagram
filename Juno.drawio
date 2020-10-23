@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T16:31:57.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="JqQOuj8w6UFX_wrTgskB" version="13.7.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-23T17:06:17.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="-A3BdQ76wP_neg4BSM8B" version="13.7.8" type="github" pages="2">
   <diagram id="O5oqriAKqBpvd__LWGR2" name="usecase-build">
     <mxGraphModel dx="1339" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,12 +103,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-T5_wcRGJeTI9wuBq7Qv" name="login-ewacs">
-    <mxGraphModel dx="1339" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2189" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="uq-IiAho0hEKO2kXrdbQ-0" />
         <mxCell id="uq-IiAho0hEKO2kXrdbQ-1" parent="uq-IiAho0hEKO2kXrdbQ-0" />
         <mxCell id="P5qISW23LmS3Dwndeurh-0" value="Juno is in &quot;prod dev&quot; that does not fronted by APIGEE. Hence public facing IP 204.x.x.1&lt;br&gt;will not be detected when we login from login-ui.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
-          <mxGeometry x="15" y="22" width="679" height="20" as="geometry" />
+          <mxGeometry x="78" y="39" width="679" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P5qISW23LmS3Dwndeurh-1" value="AppCanvas" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
           <mxGeometry x="469" y="312" width="280" height="182" as="geometry" />
@@ -154,13 +154,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P5qISW23LmS3Dwndeurh-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
-          <mxGeometry x="128" y="370" width="30" height="60" as="geometry" />
+          <mxGeometry x="-9" y="376" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5qISW23LmS3Dwndeurh-12" value="remoteAddress: 10.158.xx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
-          <mxGeometry x="269" y="414" width="180" height="20" as="geometry" />
+        <mxCell id="P5qISW23LmS3Dwndeurh-12" value="&lt;span lang=&quot;EN-GB&quot; style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;: &lt;a href=&quot;https://da-saas-ucb-login-ui.b-internal.appcanvas.net/login&quot;&gt;https://da-saas-ucb-login-ui.b-internal.appcanvas.net/login&lt;/a&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="32" y="418" width="432" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="P5qISW23LmS3Dwndeurh-13" value="&quot;ipRange&quot;: &quot;84.246.168.11,&lt;br&gt;84.246.168.33,&lt;br&gt;205.174.40.1,&lt;br&gt;84.246.168.17,&lt;br&gt;167.107.191.217,&lt;br&gt;84.246.168.12,&lt;br&gt;84.246.168.14&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
-          <mxGeometry x="898" y="163" width="120" height="129" as="geometry" />
+        <mxCell id="P5qISW23LmS3Dwndeurh-13" value="&quot;ipRange&quot;: &quot;84.246.168.11,&lt;br&gt;84.246.168.33,&lt;br&gt;205.174.40.1,&lt;br&gt;84.246.168.17,&lt;br&gt;167.107.191.217,&lt;br&gt;84.246.168.12,&lt;br&gt;84.246.168.14&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="905" y="116" width="120" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="P5qISW23LmS3Dwndeurh-19" value="&lt;a href=&quot;mailto:experian.administrator.mfa@pcotest.com&quot; style=&quot;color: rgb(0 , 82 , 204) ; cursor: pointer ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; font-weight: 700&quot;&gt;experian.administrator.mfa@pcotest.com&lt;/a&gt;&lt;br&gt;Experian123!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="120" y="440" width="262" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="P5qISW23LmS3Dwndeurh-22" value="IP:10.158.x.x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="187" y="383" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P5qISW23LmS3Dwndeurh-23" value="CAN&#39;T LOGIN" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="48" y="39" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5qISW23LmS3Dwndeurh-24" value="And we login using the internal url, which share the same network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="uq-IiAho0hEKO2kXrdbQ-1">
+          <mxGeometry x="187" y="75" width="509" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
