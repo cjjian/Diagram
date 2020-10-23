@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T14:45:20.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.7.8" etag="SbjOhYoiMUtj9r29xzk5" type="github"><diagram id="O5oqriAKqBpvd__LWGR2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-23T15:23:15.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="iZBJFmD9re7uvZL5XGUv" version="13.7.8" type="github">
+  <diagram id="O5oqriAKqBpvd__LWGR2" name="usecase-build">
+    <mxGraphModel dx="1339" dy="-298" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-8" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qG5oZKhEG7zA3qGjVQWN-2" target="qG5oZKhEG7zA3qGjVQWN-5">
+          <mxGeometry x="0.6944" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-9" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qG5oZKhEG7zA3qGjVQWN-2" target="qG5oZKhEG7zA3qGjVQWN-4">
+          <mxGeometry x="0.4764" y="-11" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-10" value="ASSEMBLIES_FILE=pc-&lt;font color=&quot;#ff0000&quot;&gt;uk-mewtwo-adaptive-icc-mssql&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qG5oZKhEG7zA3qGjVQWN-2" target="qG5oZKhEG7zA3qGjVQWN-6">
+          <mxGeometry x="0.5823" y="-5" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-15" value="3. call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qG5oZKhEG7zA3qGjVQWN-10">
+          <mxGeometry x="-0.7619" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-2" value="software-use-uk-mewtwo&lt;br&gt;feature/adaptive-icc-mssql" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="55" y="1167" width="440" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-3" value="Jenkins&lt;br&gt;&lt;br&gt;gdsBuildUsecase(blueprintAssemblyOverride:&lt;font color=&quot;#ff0000&quot;&gt;uk-mewtwo-adaptive-icc-mssql&lt;/font&gt;)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="63" y="1214" width="424" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-4" value="create client environment" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="569" y="1203" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-5" value="&lt;span style=&quot;color: rgb(106 , 135 , 89) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 12pt&quot;&gt;e1-bp&lt;/span&gt;client" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="569" y="1148" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qG5oZKhEG7zA3qGjVQWN-6" target="qG5oZKhEG7zA3qGjVQWN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-6" value="create usecase environment" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1528" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="qG5oZKhEG7zA3qGjVQWN-13" value="&lt;b&gt;stack-da-saas-prod-ucb-uk repo&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;i&gt;|&lt;font style=&quot;font-size: 13px&quot;&gt;-&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;pc-uk-mewtwo-adaptive-icc-mssql&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1449" width="298" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
