@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T10:26:38.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8slilws6QMK7GlEvsWQT" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T10:31:57.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_C92x3mFCdMkW2cTRRHo" version="15.5.9" type="github">
   <diagram id="b_JwN8Kx61OKyOZPGAQf" name="Page-1">
     <mxGraphModel dx="2194" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-125" value="Reset running job to failed&lt;br&gt;Start new job scenario" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=left;verticalAlign=top;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#336600;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1220" width="1150" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-2" value="RUNNING_JOB_UPDATE_RATE : 20 SEC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="490" y="20" width="270" height="20" as="geometry" />
         </mxCell>
@@ -78,7 +81,7 @@
           <mxGeometry x="-320" y="720" width="185" height="830" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-60">
-          <mxGeometry x="80" y="70" width="10" height="80" as="geometry" />
+          <mxGeometry x="90" y="60" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-62" value="start job 2" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="JN4VMpjm8h-r0COUKPYH-61" parent="JN4VMpjm8h-r0COUKPYH-60">
           <mxGeometry relative="1" as="geometry">
