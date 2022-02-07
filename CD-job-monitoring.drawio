@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T08:41:07.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JJ7fgEc0kzZz_zFH96e-" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T09:51:00.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="faXNC7SbppJBkM105d_l" version="15.5.9" type="github">
   <diagram id="b_JwN8Kx61OKyOZPGAQf" name="Page-1">
-    <mxGraphModel dx="1298" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2148" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,37 +11,67 @@
           <mxGeometry x="490" y="60" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-7" value="JobLauncher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="-60" y="160" width="145" height="400" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-7">
-          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+          <mxGeometry x="67.5" y="40" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-12" value="start job 1" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="JN4VMpjm8h-r0COUKPYH-11" parent="JN4VMpjm8h-r0COUKPYH-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-180" y="50" as="sourcePoint" />
+            <mxPoint x="-140" y="50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JN4VMpjm8h-r0COUKPYH-8" value="JobExecutionMonitor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="160" width="120" height="550" as="geometry" />
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-7">
+          <mxGeometry x="67.5" y="290" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JN4VMpjm8h-r0COUKPYH-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-8">
-          <mxGeometry x="55" y="50" width="10" height="80" as="geometry" />
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-8" value="JobExecutionMonitor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="120" height="400" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-8">
-          <mxGeometry x="55" y="170" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="239" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JN4VMpjm8h-r0COUKPYH-18" value="update job 1 lastUpdate&lt;br&gt;with current date-time every&lt;br&gt;20 seconds" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="JN4VMpjm8h-r0COUKPYH-17" parent="JN4VMpjm8h-r0COUKPYH-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="150" as="sourcePoint" />
+            <mxPoint x="55" y="219" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="150" />
+              <mxPoint x="85" y="219" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JN4VMpjm8h-r0COUKPYH-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="730" y="320" width="60" height="80" as="geometry" />
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-8">
+          <mxGeometry x="55" y="140" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JN4VMpjm8h-r0COUKPYH-16" value="start monitor job 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JN4VMpjm8h-r0COUKPYH-11" target="JN4VMpjm8h-r0COUKPYH-15">
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-8">
+          <mxGeometry x="55" y="290" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="379" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-26" value="JobResultListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-26">
+          <mxGeometry x="45" y="40" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-26">
+          <mxGeometry x="45" y="140" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JN4VMpjm8h-r0COUKPYH-26">
+          <mxGeometry x="45" y="290" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-28" value="send before job event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JN4VMpjm8h-r0COUKPYH-11" target="JN4VMpjm8h-r0COUKPYH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-35" value="start monitor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JN4VMpjm8h-r0COUKPYH-30" target="JN4VMpjm8h-r0COUKPYH-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-36" value="update job 1 lastUpdate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JN4VMpjm8h-r0COUKPYH-17" target="JN4VMpjm8h-r0COUKPYH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-51" value="send after job event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JN4VMpjm8h-r0COUKPYH-49" target="JN4VMpjm8h-r0COUKPYH-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JN4VMpjm8h-r0COUKPYH-59" value="terminate monitor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JN4VMpjm8h-r0COUKPYH-50" target="JN4VMpjm8h-r0COUKPYH-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
