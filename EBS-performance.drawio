@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:41:20.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="hy6fbuh-goSLjxOdsUE_" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:51:22.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="tk8Fq3BwPTBAsrzz_Hrp" version="24.4.2" type="github">
   <diagram name="Page-1" id="fZzsu9hmyL7Nlfl3KdEv">
-    <mxGraphModel dx="2947" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3346" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,21 +56,21 @@
           <mxGeometry x="100" y="550" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QlcWedHpRXv3R7vnOEsD-20">
-          <mxGeometry x="100" y="650" width="10" height="30" as="geometry" />
+          <mxGeometry x="100" y="621" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QlcWedHpRXv3R7vnOEsD-20">
-          <mxGeometry x="100" y="700" width="10" height="40" as="geometry" />
+          <mxGeometry x="100" y="671" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-6" value="getTaskSchedulerFromContext" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="M7ghHzg6LirNKr-ro0C7-5" parent="QlcWedHpRXv3R7vnOEsD-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" y="680" as="sourcePoint" />
+            <mxPoint x="105" y="651" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="135" y="710" />
+              <mxPoint x="135" y="681" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QlcWedHpRXv3R7vnOEsD-20">
-          <mxGeometry x="100" y="750" width="10" height="80" as="geometry" />
+          <mxGeometry x="100" y="721" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlcWedHpRXv3R7vnOEsD-90" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="QlcWedHpRXv3R7vnOEsD-20" vertex="1">
           <mxGeometry x="100" y="500" width="10" height="40" as="geometry" />
@@ -79,10 +79,10 @@
           <mxGeometry x="-30" y="560" width="210" height="1670" as="geometry" />
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QlcWedHpRXv3R7vnOEsD-21">
-          <mxGeometry x="100" y="600" width="10" height="40" as="geometry" />
+          <mxGeometry x="100" y="584" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QlcWedHpRXv3R7vnOEsD-21">
-          <mxGeometry x="100" y="750" width="10" height="80" as="geometry" />
+          <mxGeometry x="100" y="721" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QlcWedHpRXv3R7vnOEsD-22" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;SourcePollingChannelAdapterFactoryBean&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-550" y="560" width="290" height="1630" as="geometry" />
@@ -153,7 +153,7 @@
         </mxCell>
         <mxCell id="QlcWedHpRXv3R7vnOEsD-58" value="initialize" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="QlcWedHpRXv3R7vnOEsD-55" target="QlcWedHpRXv3R7vnOEsD-57" edge="1">
           <mxGeometry x="-0.1351" y="5" relative="1" as="geometry">
-            <mxPoint x="-110" y="55" as="sourcePoint" />
+            <mxPoint x="-100" y="55" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -188,44 +188,47 @@
         <mxCell id="QlcWedHpRXv3R7vnOEsD-71" value="initialize new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-66" target="QlcWedHpRXv3R7vnOEsD-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QlcWedHpRXv3R7vnOEsD-75" value="setPoller(pollerInterval, maxMessagesPerPoll)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-72" target="QlcWedHpRXv3R7vnOEsD-76" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="QlcWedHpRXv3R7vnOEsD-75" value="setPoller(&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;pollerInterval&lt;/font&gt;&lt;/b&gt;, &lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;maxMessagesPerPol&lt;/font&gt;&lt;/b&gt;l)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-72" target="QlcWedHpRXv3R7vnOEsD-76" edge="1">
+          <mxGeometry x="0.0504" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-460" y="866" />
               <mxPoint x="-460" y="866" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QlcWedHpRXv3R7vnOEsD-85" value="initialize new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-84" target="QlcWedHpRXv3R7vnOEsD-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QlcWedHpRXv3R7vnOEsD-91" value="setTrigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-89" target="QlcWedHpRXv3R7vnOEsD-90" edge="1">
-          <mxGeometry x="-0.25" relative="1" as="geometry">
+        <mxCell id="QlcWedHpRXv3R7vnOEsD-91" value="setTrigger with &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;pollerInterval&lt;/font&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" edge="1">
+          <mxGeometry x="0.28" y="10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-270" y="1080" />
               <mxPoint x="-270" y="1080" />
             </Array>
             <mxPoint as="offset" />
+            <mxPoint x="-400" y="1080" as="sourcePoint" />
+            <mxPoint x="-150" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QlcWedHpRXv3R7vnOEsD-92" value="setMaxMessagesPerPoll" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-93" target="QlcWedHpRXv3R7vnOEsD-94" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="QlcWedHpRXv3R7vnOEsD-92" value="set &lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;maxMessagesPerPoll&lt;/font&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="QlcWedHpRXv3R7vnOEsD-93" target="QlcWedHpRXv3R7vnOEsD-94" edge="1">
+          <mxGeometry x="0.04" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-180" y="1130" />
               <mxPoint x="-180" y="1130" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M7ghHzg6LirNKr-ro0C7-1" value="initialize" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="M7ghHzg6LirNKr-ro0C7-2">
+        <mxCell id="M7ghHzg6LirNKr-ro0C7-1" value="initialize new with &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;thread-pool-size&lt;/font&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-1440" y="1200" as="sourcePoint" />
-            <mxPoint x="-1500" y="1510" as="targetPoint" />
+            <mxPoint x="-1440" y="1157" as="sourcePoint" />
+            <mxPoint x="70" y="1157" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-4" value="start" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="M7ghHzg6LirNKr-ro0C7-3" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1440" y="1220" as="sourcePoint" />
+            <mxPoint x="-1440" y="1180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-9" value="schedule(pollerTask, trigger)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="M7ghHzg6LirNKr-ro0C7-7" target="M7ghHzg6LirNKr-ro0C7-8">
@@ -233,7 +236,7 @@
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-12" value="initiliaze" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="M7ghHzg6LirNKr-ro0C7-11" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1450" y="660" as="sourcePoint" />
+            <mxPoint x="-1440" y="660" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
