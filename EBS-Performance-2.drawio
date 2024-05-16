@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T09:29:09.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PvBz4rxyP_D58BkfmXuM" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T09:58:21.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="leE8wSuCQTa5Q1MdYvLW" version="24.4.2" type="github" pages="2">
   <diagram name="KafkaInboundChannel Startup" id="fZzsu9hmyL7Nlfl3KdEv">
     <mxGraphModel dx="3387" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -240,6 +240,102 @@
         </mxCell>
         <mxCell id="ktT0PjB0B2NuViWrefe5-9" value="&lt;font color=&quot;#009900&quot;&gt;&lt;b style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;thread-pool-size&lt;/b&gt;&amp;nbsp;refer from&amp;nbsp;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start;&quot;&gt;EVENT_BROKER_SCHEDULERTHREAD_POOL_SIZE&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;fontStyle=1;fontColor=#336600;" vertex="1" parent="1">
           <mxGeometry x="-1370" y="1460" width="585" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8dwZAx5Fj6u7NOo7TisB" name="KafkaConsumerPolling">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0sfCeBjlXTSXAJLVpCdd-1" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ConsumerProperties&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="830" y="120" width="150" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0sfCeBjlXTSXAJLVpCdd-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0sfCeBjlXTSXAJLVpCdd-1">
+          <mxGeometry x="70" y="80" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0sfCeBjlXTSXAJLVpCdd-5" value="set consumer&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;maxPollRecords&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="0sfCeBjlXTSXAJLVpCdd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="60" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="90" />
+            </Array>
+            <mxPoint x="80" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5u0-zvMOerMWLQRtPOK-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0sfCeBjlXTSXAJLVpCdd-1">
+          <mxGeometry x="70" y="50" width="10" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-1" value="KafkaConsumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="100" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="g5M48uN2ursFuM_xOU95-1">
+          <mxGeometry x="45" y="100" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-7" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;KafkaConsumerConfig&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="g5M48uN2ursFuM_xOU95-7">
+          <mxGeometry x="75" y="100" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-9" value="initialize" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="g5M48uN2ursFuM_xOU95-7" target="g5M48uN2ursFuM_xOU95-8">
+          <mxGeometry x="-0.1724" y="-5" relative="1" as="geometry">
+            <mxPoint x="-70" y="105" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-10" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;KafkaMessageSource&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="g5M48uN2ursFuM_xOU95-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="g5M48uN2ursFuM_xOU95-10">
+          <mxGeometry x="75" y="100" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="g5M48uN2ursFuM_xOU95-10">
+          <mxGeometry x="75" y="150" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="g5M48uN2ursFuM_xOU95-10">
+          <mxGeometry x="75" y="190" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EVltY_wg35r6nZvx84t-1" value="initialize new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="g5M48uN2ursFuM_xOU95-8" target="g5M48uN2ursFuM_xOU95-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEx3KxC9D1X3vY0SxSIb-1" value="initialize new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="g5M48uN2ursFuM_xOU95-2" target="7OxptR_-vYuN11p9cGAU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OxptR_-vYuN11p9cGAU-1" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;KafkaInboundChannelAdapterSpec&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="425" y="120" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7OxptR_-vYuN11p9cGAU-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7OxptR_-vYuN11p9cGAU-1">
+          <mxGeometry x="110" y="100" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5u0-zvMOerMWLQRtPOK-1" value="initialize new&lt;div&gt;with consumerProperties&lt;br&gt;(&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;maxPollRecords&lt;/b&gt;&lt;/font&gt;)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="7OxptR_-vYuN11p9cGAU-2" target="g5M48uN2ursFuM_xOU95-11">
+          <mxGeometry x="-0.1053" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5u0-zvMOerMWLQRtPOK-4" value="initialize" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="g5u0-zvMOerMWLQRtPOK-3" parent="1">
+          <mxGeometry x="-0.8545" relative="1" as="geometry">
+            <mxPoint x="80" y="180" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--8" value="doReceive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MSqZTj9H7M8-X1df1lo--5" target="MSqZTj9H7M8-X1df1lo--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--5" value="scheduler" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scheduler;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--9" value="&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#00627a;&quot;&gt;KafkaConsumer&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MSqZTj9H7M8-X1df1lo--9">
+          <mxGeometry x="75" y="190" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqZTj9H7M8-X1df1lo--16" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;initialize new&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;with consumerProperties&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;(&lt;font style=&quot;forced-color-adjust: none;&quot; color=&quot;#ff3333&quot;&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;maxPollRecords&lt;/b&gt;&lt;/font&gt;)&lt;/div&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MSqZTj9H7M8-X1df1lo--13" target="MSqZTj9H7M8-X1df1lo--12">
+          <mxGeometry x="-0.4769" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
