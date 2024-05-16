@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T08:39:56.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="644vX3A7p6HTGbcfCIxt" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T08:44:54.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_28cm4DXOudLUXTJmbM8" version="24.4.2" type="github">
   <diagram name="Page-1" id="fZzsu9hmyL7Nlfl3KdEv">
     <mxGraphModel dx="3387" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ktT0PjB0B2NuViWrefe5-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="1380" width="570" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="ktT0PjB0B2NuViWrefe5-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5FAFC;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="490" width="1390" height="880" as="geometry" />
         </mxCell>
@@ -185,9 +188,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-1" value="initialize new with &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;thread-pool-size&lt;/font&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="60" relative="1" as="geometry">
+          <mxGeometry x="0.0676" y="7" width="60" relative="1" as="geometry">
             <mxPoint x="-1410" y="1157" as="sourcePoint" />
             <mxPoint x="70" y="1157" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M7ghHzg6LirNKr-ro0C7-4" value="doStart" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="M7ghHzg6LirNKr-ro0C7-3" edge="1">
@@ -227,6 +231,15 @@
         </mxCell>
         <mxCell id="ktT0PjB0B2NuViWrefe5-6" value="Spring/Spring integration libraries" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1040" y="490" width="1390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ktT0PjB0B2NuViWrefe5-7" value="&lt;font color=&quot;#ff3333&quot;&gt;pollerInterval refer from&amp;nbsp;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start;&quot;&gt;EVENT_BROKER_KAFKA_POLLER_INTERVAL&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1345" y="1380" width="495" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ktT0PjB0B2NuViWrefe5-8" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;b style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;maxMessagesPerPoll&lt;/b&gt;&amp;nbsp;refer from&amp;nbsp;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start;&quot;&gt;EVENT_BROKER_KAFKA_MAX_MESSAGES_PER_POLL&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1345" y="1420" width="585" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ktT0PjB0B2NuViWrefe5-9" value="&lt;font color=&quot;#009900&quot;&gt;&lt;b style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;thread-pool-size&lt;/b&gt;&amp;nbsp;refer from&amp;nbsp;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start;&quot;&gt;EVENT_BROKER_SCHEDULERTHREAD_POOL_SIZE&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;fontStyle=1;fontColor=#336600;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="1460" width="585" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
